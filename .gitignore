@@ -1,0 +1,16 @@
+# Ignore Windows system folders
+AppData/
+Application Data/
+Cookies/
+History/
+Local Settings/
+Temp/
+Temporary Internet Files/
+Thumbs.db
+*.log
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore other unnecessary files
+*.tmp
