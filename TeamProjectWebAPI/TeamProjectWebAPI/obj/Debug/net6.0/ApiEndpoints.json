@@ -1,0 +1,358 @@
+[
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.FoodController",
+    "Method": "GetAllFoods",
+    "RelativePath": "Food",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.FoodController",
+    "Method": "PostFood",
+    "RelativePath": "Food",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "food",
+        "Type": "TeamProjectWebAPI.Models.Food",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TeamProjectWebAPI.Models.Food",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.FoodController",
+    "Method": "GetFood",
+    "RelativePath": "Food/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.FoodController",
+    "Method": "PutFood",
+    "RelativePath": "Food/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "food",
+        "Type": "TeamProjectWebAPI.Models.Food",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.FoodController",
+    "Method": "DeleteFood",
+    "RelativePath": "Food/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.HobbyController",
+    "Method": "GetAllHobbies",
+    "RelativePath": "Hobby",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.HobbyController",
+    "Method": "PostHobby",
+    "RelativePath": "Hobby",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hobby",
+        "Type": "TeamProjectWebAPI.Models.Hobby",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TeamProjectWebAPI.Models.Hobby",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.HobbyController",
+    "Method": "GetHobby",
+    "RelativePath": "Hobby/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.HobbyController",
+    "Method": "PutHobby",
+    "RelativePath": "Hobby/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "hobby",
+        "Type": "TeamProjectWebAPI.Models.Hobby",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.HobbyController",
+    "Method": "DeleteHobby",
+    "RelativePath": "Hobby/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.SportController",
+    "Method": "GetAllSports",
+    "RelativePath": "Sport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.SportController",
+    "Method": "PostSport",
+    "RelativePath": "Sport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sport",
+        "Type": "TeamProjectWebAPI.Models.Sport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TeamProjectWebAPI.Models.Sport",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.SportController",
+    "Method": "GetSport",
+    "RelativePath": "Sport/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.SportController",
+    "Method": "PutSport",
+    "RelativePath": "Sport/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sport",
+        "Type": "TeamProjectWebAPI.Models.Sport",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.SportController",
+    "Method": "DeleteSport",
+    "RelativePath": "Sport/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.TeamMemberController",
+    "Method": "GetAllTeamMembers",
+    "RelativePath": "TeamMember",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.TeamMemberController",
+    "Method": "PostTeamMember",
+    "RelativePath": "TeamMember",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamMember",
+        "Type": "TeamProjectWebAPI.Models.TeamMember",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TeamProjectWebAPI.Models.TeamMember",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.TeamMemberController",
+    "Method": "GetTeamMember",
+    "RelativePath": "TeamMember/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.TeamMemberController",
+    "Method": "PutTeamMember",
+    "RelativePath": "TeamMember/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "teamMember",
+        "Type": "TeamProjectWebAPI.Models.TeamMember",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TeamProjectWebAPI.Controllers.TeamMemberController",
+    "Method": "DeleteTeamMember",
+    "RelativePath": "TeamMember/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
