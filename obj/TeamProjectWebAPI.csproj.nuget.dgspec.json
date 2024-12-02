@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\epicc\\Downloads\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj": {}
+    "C:\\Users\\16146\\OneDrive\\Documents\\UC\\Contemporary Programming\\TeamProjectWebAPI\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\epicc\\Downloads\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj": {
+    "C:\\Users\\16146\\OneDrive\\Documents\\UC\\Contemporary Programming\\TeamProjectWebAPI\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\epicc\\Downloads\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\16146\\OneDrive\\Documents\\UC\\Contemporary Programming\\TeamProjectWebAPI\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj",
         "projectName": "TeamProjectWebAPI",
-        "projectPath": "C:\\Users\\epicc\\Downloads\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj",
-        "packagesPath": "C:\\Users\\epicc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\epicc\\Downloads\\TeamProjectWebAPI\\obj\\",
+        "projectPath": "C:\\Users\\16146\\OneDrive\\Documents\\UC\\Contemporary Programming\\TeamProjectWebAPI\\TeamProjectWebAPI\\TeamProjectWebAPI.csproj",
+        "packagesPath": "C:\\Users\\16146\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16146\\OneDrive\\Documents\\UC\\Contemporary Programming\\TeamProjectWebAPI\\TeamProjectWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\epicc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16146\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

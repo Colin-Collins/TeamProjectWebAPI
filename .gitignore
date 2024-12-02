@@ -1,16 +1,23 @@
-# Ignore Windows system folders
-AppData/
-Application Data/
-Cookies/
-History/
-Local Settings/
-Temp/
-Temporary Internet Files/
-Thumbs.db
+# Ignore build and output files
+bin/
+obj/
+.vs/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore temporary and lock files
+*.lock
 *.log
-
-# Ignore Mac system files
-.DS_Store
-
-# Ignore other unnecessary files
 *.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Ignore application host settings
+applicationhost.config
+
+# Ignore any other unwanted directories
+TeamProjectWebAPI/TeamProjectWebAPI/bin/
+TeamProjectWebAPI/TeamProjectWebAPI/obj/
