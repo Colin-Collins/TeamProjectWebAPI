@@ -19,7 +19,7 @@ namespace TeamProjectWebAPI.Data
                 new TeamMember { Id = 2, FullName = "Colin Collins", Birthdate = 11132004, CollegeProgram = "Cybersecurity", YearInProgram = "Sophomore" },
                 new TeamMember { Id = 3, FullName = "Kyler Hayes", Birthdate = 10132004, CollegeProgram = "Information Technology", YearInProgram = "Sophomore" },
                 new TeamMember { Id = 4, FullName = "Bobby Vargas", Birthdate = 2231996, CollegeProgram = "Information Technology", YearInProgram = "Freshman" },
-                new TeamMember { Id = 5, FullName = "Zachary Dunn", Birthdate = 771987, CollegeProgram = "Information Technology", YearInProgram = "Sophomore" });
+                new TeamMember { Id = 5, FullName = "Zachary Dunn", Birthdate = 11201998, CollegeProgram = "Information Technology", YearInProgram = "Sophomore" });
 
             modelBuilder.Entity<Sport>().HasData(
                 new Sport { Id = 1, SportName = "Football", TeamOrIndividual = "Ohio State", PlayersCount = 11, Season = "Fall" },
